@@ -1,0 +1,73 @@
+.sidebar-bg{
+    background-color: rgb(25, 131, 252);
+}
+.bordure-t{
+    border-top: 2px solid rgb(67, 145, 247);
+    padding-left: 5px;
+}
+.progress_bar{
+    padding-bottom: 13px;
+}
+.progress_bar .pro-bar {
+    background: rgb(101, 101, 240);
+    height:2px;
+    position: relative;
+    padding-bottom: 2px;
+}
+.progress_bar .progress_bar_title{
+    color: hsl(218, 4%, 50%);
+    font-size: 15px;
+    font-weight: 300;
+    position: relative;
+    top: -28px;
+    z-index: 1;
+}
+.progress_bar .progress_number{
+    float: right;
+    margin-top: -24px;
+}
+.progress_bar .progress-bar-inner {
+    background-color:white;
+    display: block;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 1s linear 0s;
+}
+
+.progress_bar .progress-bar-inner:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: -4px;
+    top: -5px;
+}
+div span{
+    font-size: 13px;
+}
+.bordure-t p{
+    font-size: 10px;
+}
+
+.second-bg{
+    background-color: rgb(209, 205, 205);
+}
+
+.bordure-t{
+    border-top: 2px solid rgb(67, 145, 247);
+    padding-left: 5px;
+}
+.bord-t{
+    border-top: 2px solid rgb(67, 145, 247);
+}
+.experience h6{
+    font-weight: bold;
+}
+.experience p{
+    margin-top: -10px;
+}
